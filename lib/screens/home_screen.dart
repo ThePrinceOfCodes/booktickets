@@ -1,3 +1,4 @@
+import 'package:booktickets/screens/tickect_view.dart';
 import 'package:flutter/material.dart';
 import 'package:booktickets/utils/app_styles.dart';
 import 'package:gap/gap.dart';
@@ -90,10 +91,10 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ],
               ),
-            )
+            ),
+            const Gap(15),
+            TicketView(),
           ],
-        ))
-        
-        ;
+        ));
   }
 }
